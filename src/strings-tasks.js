@@ -188,8 +188,8 @@ function removeLastOccurrences(str, value) {
  *   sumOfCodes('') => 0
  *   sumOfCodes() => 0
  */
-function sumOfCodes(str) {
-  
+function sumOfCodes(/* str */) {
+  throw new Error('Not implemented');
 }
 
 /**
